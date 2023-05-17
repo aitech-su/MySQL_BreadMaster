@@ -36,6 +36,5 @@ if __name__ =="__main__":
         db.create_all()
     app.run(#'0.0.0.0', 
                 debug = True) #允許外部連線
-    formPage()
 
 #@app.route('/data/appInfo/<name>', methods=['GET']) #加入接收的參數
